@@ -34,4 +34,4 @@
    - Here we are assuming that we don't know the population standard deviation, 
 now we will take the sample with finite no.of observations from the population and we will calculate the mean and standard deviation of the sample and we will assume the standard deviation of the population is same as the standard deviation of sample. So now the standard deviation of sample  = (standard deviation of sample)/sqrt(n). 
 where n = no. of observations in the sample.
- - 95% confidence interval = [sample_mean-2**standard deviation of sample ,  sample_mean+2**standard deviation of sample]
+ - 95% confidence interval = [sample_mean - 2 X standard deviation of sample ,  sample_mean + 2 X standard deviation of sample]
