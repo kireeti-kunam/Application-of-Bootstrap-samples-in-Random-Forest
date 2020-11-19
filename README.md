@@ -16,7 +16,7 @@
   - In row sampling we will take the certain no.of rows and in column sampling we will take certain no.of columns. By using this data we will train our base models. For each base model we will take different samples of data.
   - Why we are doing this? To reduce the variance and to build strong models.
   - High variance is nothing but small change in data will cause large affects on predictions of models. Since we are doing the row sampling each model will see different sub-sets of data. So we will get our final models with low variance.
-  - Then why column sampling? Since we are using base models (decision trees with depth = None). That means all of our base models are high variance models. If we are using same features for all this high variance models then the reault we will get is a high variance model. So to avois that we are doing column sampling.
+  - Then why column sampling? Since we are using base models (decision trees with depth = None). That means all of our base models are high variance models. If we are using same features for all this high variance models then the result we will get is a high variance model. So to avoid that we are doing column sampling.
   
  
  # Note:
